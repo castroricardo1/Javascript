@@ -1,17 +1,31 @@
-# Welcome to MkDocs
+# JavaScript: Estudo e Exercicios
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Site para ajudar nos meus estudos em JavaScript, e posteriormente poder revisar algo que eu precise relembrar.
 
-## Commands
+Dividirei os estudos em partes, sendo :
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- **1^a^ Parte**: Início 
+  
+    * [Variáveis](#) 
+    * [Números e Operadores](#)
+    * [Boolean e Condicionais](#)
+    * [Funções](#)
+    * [Objeto](#)
+    * [Array e Loop](#)
+    * [Atribuição e Ternário](#)
+    * [Escopo](#)
 
-## Project layout
+<br>
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- 2^a^ Parte
+  
+    * [Constructor Function](#) 
+    * [Prototype](#)
+    * [Native, Host e User](#)
+    * [string](#)
+    * [Number e Math](#)
+    * [Array](#)
+    * [Array e Iteração](#)
+    * [Function](#)
+    * [Object](#)
+

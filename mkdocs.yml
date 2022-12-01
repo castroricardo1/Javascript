@@ -1,4 +1,50 @@
-site_name: Estudo JavaScript
+site_name: JavaScript - Estudo
+
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - def_list
 
 theme: 
   name: material
+  language: pt
+  palette:
+    scheme: slate
+    primary: yellow
+  logo: "assets/logo2.png"
+  features: 
+    - navigation.tabs.sticky
+    
+    - navigation.expand
+    - navigation.indexes
+
+extra: 
+  consent:
+    title: Consetimento de Cookies
+    description: >- 
+      Usamos cookies para reconhecer suas visitas e preferências repetidas, bem como para medir a eficácia de nossa documentação e se os usuários encontram o que procuram. Com o seu consentimento, você está nos ajudando a melhorar nossa documentação.
+
+
+
+    
+
+nav:
+    - Introdução: index.md
+    - Parte 1(Inicio):
+      - Variáveis: parte1/variaveis.md
+      - Números e Operadores: parte1/numero.md
+      - Boolean e Condicionais: parte1/boolean.md
+      - Funções: parte1/funcoes.md
+      - Objeto: parte1/objeto.md
+
+
+
+  
