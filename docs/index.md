@@ -11,9 +11,9 @@ Dividirei os estudos em partes, sendo :
     * [Boolean e Condicionais](parte1/boolean.md)
     * [Funções](parte1/funcoes.md)
     * [Objetos](parte1/objeto.md)
-    * [Array e Loop](#)
-    * [Atribuição e Ternário](#)
-    * [Escopo](#)
+    * [Array e Loop](parte1/array.md)
+    * [Atribuição e Ternário](parte1/comentario.md)
+    * [Escopo](parte1/escopo.md)
 
 <br>
 

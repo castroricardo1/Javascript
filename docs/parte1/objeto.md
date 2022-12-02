@@ -37,8 +37,6 @@ quadrado.area(5); // 25
 quadrado.perimetro(5); // 20
 ```
 
-# Métodos
-
 Abreviação de `#!javascript area:function () {}` para `#!javascript area () {}`, no ES6+
 
 ```js
@@ -157,6 +155,69 @@ menu.hasOwnProperty('height') // false
 !!! info
 
     hasOwnProperty é um método de Object
+
+### Tudo é objeto
+
+Strings, Números, Boolean, Objetos e mais, possuem propriedades e métodos. Por isso são objetos.
+
+```js
+var nome = 'André';
+
+nome.length; // 5
+nome.charAt(1); // 'n'
+nome.replace('ré', 'rei'); // 'Andrei'
+nome; // 'André'
+```
+!!! info
+
+    Uma string herda propriedades e métodos do construtor `#!javascript String()`
+
+### Números
+
+```js
+var altura = 1.8;
+
+altura.toString(); // '1.8'
+altura.toFixed(); // '2'
+```
+
+!!! tip "Dica"
+
+    Por um breve momento o número é envolvido em um Objeto (coerção), tendo acesso assim as suas propriedades e métodos
+
+### Funções
+
+```js
+function areaQuadrado(lado) {
+  return lado * lado;
+}
+
+areaQuadrado.toString();
+//"function areaQuadrado(lado) {
+//  return lado * lado;
+//}"
+
+areaQuadrado.length; // 1
+```
+
+### Elementos do DOM
+
+```html
+<a class="btn">Clique</a>
+```
+
+```js
+var btn = document.querySelector('.btn');
+
+btn.classList.add('azul') // adiciona a classe azul
+btn.innerText; // 'Clique'
+btn.addEventListener('click', function() {
+  console.log('Clicou')
+})
+```
+!!! info
+
+    Praticamente todos os efeitos com JS são feitos utilizando propriedades e métodos de objetos do DOM.
 
 
 
