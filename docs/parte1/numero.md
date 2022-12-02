@@ -22,7 +22,7 @@ var modulo = 14 % 5; // 4
 
 !!! note "Lembrando"
 
-    A símbolo de soma `+` em strings serve para concatenar
+    A símbolo de soma `#!javascript +` em strings serve para concatenar
 
 ### Operadores Aritméticos (Strings)
 
@@ -34,7 +34,7 @@ var divisao = 'Comprei 10' / 2; // NaN (Not a Number)
 ```
 !!! tip "Dica"
 
-    É possível verificar se uma variável é NaN ou não com a função `isNan()`
+    É possível verificar se uma variável é NaN ou não com a função `#!javascript isNan()`
 
 ### A ordem importa
 
@@ -63,9 +63,9 @@ console.log(incremento2); // 6
 ```
 !!! note "Nota"
 
-    Mesma coisa para o decremento `--x`
+    Mesma coisa para o decremento `#!javascript --x`
 
-O `+`e `-` tenta transformar o valor seguinte em número
+O `#!javascript +`e `#!javascript -` tenta transformar o valor seguinte em número
 
 ```js
 var frase = 'Isso é um teste';
@@ -82,7 +82,7 @@ console.log(+possuiFaculdade); // 1
 ```
 !!! note "Nota"
 
-    O `-` antes de um número o torna negativo
+    O `#!javascript -` antes de um número o torna negativo
 
 [Guia completo de operadores](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Operators)
 

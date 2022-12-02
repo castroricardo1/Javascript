@@ -4,7 +4,7 @@ Reponsável por guardar dados na memória
 
 !!! note "Tipos de variáveis"
 
-    Inicia com a palavra `var`, `let` ou `const`.
+    Inicia com a palavra `#!javascript var`, `#!javascript let` ou `#!javascript const`.
 
 * var: Não se utiliza mais hoje em dia
 * let: Declarar variáveis com escopo de bloco
@@ -17,7 +17,7 @@ const possuiFaculdade = true;
 ```
 
 ### Sintaxe
-Palavra chave `var`, `let` ou `const`, sinal de igual e o valor
+Palavra chave `#!javascript var`, `#!javascript let` ou `#!javascript const`, sinal de igual e o valor
 
 !!! example "Exemplo"
   
@@ -108,7 +108,7 @@ console.log(profissao);
 
 ### Mudar o valor atribuído
 
-É possível mudar os valores atribuídos a variáveis declaradas com `var` e `let`. Porém não é possível modificar valores declarados com `const`.
+É possível mudar os valores atribuídos a variáveis declaradas com `#!javascript var` e `#!javascript let`. Porém não é possível modificar valores declarados com `#!javascript const`.
 
 ```js
 var idade = 28;
@@ -150,7 +150,7 @@ console.log(typeof nome);
 
 !!! note "Nota"
 
-    `typeof null` retorna object
+    `#!javascript typeof null` retorna object
 
 ### String
 
@@ -193,4 +193,4 @@ var frase2 = `Romário fez ${gols} gols`; // Utilizando Template String
 
 !!! info 
 
-    Você deve passar expressões / variáveis dentro de `${}`
+    Você deve passar expressões / variáveis dentro de `#!javascript ${}`

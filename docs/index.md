@@ -6,11 +6,11 @@ Dividirei os estudos em partes, sendo :
 
 - **1^a^ Parte**: Início 
   
-    * [Variáveis](#) 
-    * [Números e Operadores](#)
-    * [Boolean e Condicionais](#)
-    * [Funções](#)
-    * [Objeto](#)
+    * [Variáveis](parte1/variaveis.md) 
+    * [Números e Operadores](parte1/numero.md)
+    * [Boolean e Condicionais](parte1/boolean.md)
+    * [Funções](parte1/funcoes.md)
+    * [Objetos](parte1/objeto.md)
     * [Array e Loop](#)
     * [Atribuição e Ternário](#)
     * [Escopo](#)

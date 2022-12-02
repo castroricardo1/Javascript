@@ -2,7 +2,7 @@
 
 ### Boolean
 
-Existem dois valores booleanos `false` ou `true`
+Existem dois valores booleanos `#!javascript false` ou `#!javascript true`
 
 ```js
 var possuiGraduacao = true;
@@ -11,7 +11,7 @@ var possuiDoutorado = false;
 
 ### Condicionais If e Else
 
-Verificar se uma expressão é verdadeira com `if`, caso o contrário o `else` será ativado.
+Verificar se uma expressão é verdadeira com `#!javascript if`, caso o contrário o `#!javascript else` será ativado.
 
 ```js
 var possuiGraduacao = true;
@@ -25,11 +25,11 @@ if(possuiGraduacao) {
 ```
 !!! info "Informação"
 
-    O valor dentro dos parênteses sempre será avaliado em `false` ou `true`.
+    O valor dentro dos parênteses sempre será avaliado em `#!javascript false` ou `#!javascript true`.
 
 ### Condicional Else If
 
-Se o `if` não for verdadeiro, ele testa o `else if`
+Se o `#!javascript if` não for verdadeiro, ele testa o `#!javascript else if`
 
 ```js
 var possuiGraduacao = true;
@@ -47,7 +47,7 @@ if(possuiDoutorado) {
 
 ### Switch
 
-Com o `switch` você pode verificar se uma variável é igual à diferentes valores utilizando o `case`. Caso ela seja igual, você pode fazer alguma coisa e utilizar a palavra chave `break` para cancelar a continuação. O valor de dafult ocorrerá caso nenhuma das anteriores seja verdadeira.
+Com o `#!javascript switch` você pode verificar se uma variável é igual à diferentes valores utilizando o `#!javascript case`. Caso ela seja igual, você pode fazer alguma coisa e utilizar a palavra chave `#!javascript break` para cancelar a continuação. O valor de dafult ocorrerá caso nenhuma das anteriores seja verdadeira.
 
 ```js
 var corFavorita = 'Azul';
@@ -69,7 +69,7 @@ switch (corFavorita) {
 
 ### Truthy e Falsy
 
-Existem valores que retornam `true` e outros que retornam `false` quando verificados em uma expressão booleana.
+Existem valores que retornam `#!javascript true` e outros que retornam `#!javascript false` quando verificados em uma expressão booleana.
 
 ```js
 // Falsy
@@ -98,7 +98,7 @@ if({})
 
 ### Operador Lógico de Negação (!)
 
-O operador `!` nega uma operação booleana. Ou seja, `!true` é a igual a `false` 
+O operador `#!javascript !` nega uma operação booleana. Ou seja, `#!javascript !true` é a igual a `#!javascript false` 
 
 ```js
 // Truthy
@@ -111,7 +111,7 @@ if(!!'') // false
 ```
 !!! tip "Dica"
 
-    Pode utilizar o `!!` para verificar se uma expressão é Truthy ou Falsy
+    Pode utilizar o `#!javascript !!` para verificar se uma expressão é Truthy ou Falsy
 
 ### Operadores de Comparaçao
 
@@ -127,7 +127,7 @@ Vão sempre retornar um valor booleano
 
 ### Operadores de Comparaçao
 
-O `==` faz uma comparação não tão estrita e o `===` faz uma comparação estrita, ou seja, o tipo de dado deve ser o mesmo quando usamos `===`
+O `#!javascript ==` faz uma comparação não tão estrita e o `#!javascript ===` faz uma comparação estrita, ou seja, o tipo de dado deve ser o mesmo quando usamos `#!javascript ===`
 
 ```js
 10 == '10'; // true
@@ -141,7 +141,7 @@ O `==` faz uma comparação não tão estrita e o `===` faz uma comparação est
 
 ### Operadores Lógicos &&
 
-`&&` Compara se uma expressão `e` outra é verdadeira
+`#!javascript &&` Compara se uma expressão `#!javascript e` outra é verdadeira
 
 ```js
 true && true; // true
@@ -159,7 +159,7 @@ false && true; // false
 
 ### Operadores Lógicos ||
 
-`||` Compara se uma expressão `ou` outra é verdadeira
+`#!javascript ||` Compara se uma expressão `ou` outra é verdadeira
 ```js
 true || true; // true
 true || false; // true
