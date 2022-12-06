@@ -17,7 +17,20 @@ Dividirei os estudos em partes, sendo :
 
 <br>
 
-- 2^a^ Parte
+- **2^a^ Parte**: DOM
+  
+    * [O que é DOM](parte2/dom.md) 
+    * [Seleção de Elementos](parte2/selecao.md)
+    * [forEach e ArrowFunction](parte2/foreach.md)
+    * [Classes e Atributos](parte2/classe.md)
+    * [Dimensões e Distâncias](parte2/dimensoes.md)
+    * [Evento](parte2/eventos.md)
+    * [Traversing e Manipulação](parte2/traversing.md)
+    * [Navegação por Tabs](parte2/navegacao.md)
+
+<br>
+
+- 3^a^ Parte
   
     * [Constructor Function](#) 
     * [Prototype](#)
